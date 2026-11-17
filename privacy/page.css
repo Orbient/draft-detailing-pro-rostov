@@ -1,0 +1,11 @@
+@font-face{font-family:Flex;font-weight:100 800;font-stretch:100% 151%;font-display:swap;src:url(../fonts/roboto-flex-cyrillic.woff2) format('woff2-variations');unicode-range:U+0400-045F}
+@font-face{font-family:Flex;font-weight:100 800;font-stretch:100% 151%;font-display:swap;src:url(../fonts/roboto-flex-latin.woff2) format('woff2-variations');unicode-range:U+0000-00FF,U+2013-2026,U+20BD,U+2116}
+html,body{margin:0;background:#000;color:#fff}
+body{font:16px/1.65 Flex,system-ui,sans-serif;padding:72px clamp(20px,4vw,56px) 96px}
+main{max-width:760px;margin:0 auto}
+a{color:#fff;text-underline-offset:.25em}
+.bar{position:fixed;inset:0 0 auto;height:26px;display:grid;place-items:center;background:#0d0d0d;color:rgba(255,255,255,.55);font-size:10.5px;letter-spacing:.06em;text-transform:uppercase;border-bottom:1px solid rgba(255,255,255,.08)}
+h1{font-weight:300;font-stretch:125%;text-transform:uppercase;letter-spacing:-.03em;line-height:1;font-size:clamp(2rem,5vw,3.4rem);margin:40px 0 32px}
+h2{font-weight:400;font-stretch:115%;text-transform:uppercase;font-size:1.05rem;letter-spacing:.02em;margin:40px 0 12px;padding-top:24px;border-top:1px solid rgba(255,255,255,.15)}
+p,li{color:rgba(255,255,255,.72)}
+.back{font-size:13px;letter-spacing:.06em;text-transform:uppercase}
